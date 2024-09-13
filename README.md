@@ -11,10 +11,13 @@ This project is an interactive game where the player manipulates euglena cells (
 
 ## Requirements
 - Python 3.x
-- OpenCV
-- NumPy
 - A phone camera to stream video to the computer (via a generated QR code).
 - Four LED lights and joystick control for manipulating the euglena's movement.
+
+## Dependencies
+- `opencv-python` (for OpenCV functionality)
+- `opencv_browser_camera` (to stream phone camera feed to your PC)
+- `numpy` (for array and numerical operations)
 
 ## How to Play
 1. **Setup the camera**: 
